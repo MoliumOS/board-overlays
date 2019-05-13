@@ -26,6 +26,8 @@ USE="${USE} legacy_keyboard legacy_power_button sse kernel-4_19"
 
 USE="${USE} direncryption"
 
+USE="${USE} -tpm tpm2 swtpm"
+
 # LLVM is required to build the llvmpipe and radeon drivers.
 USE="${USE} llvm"
 

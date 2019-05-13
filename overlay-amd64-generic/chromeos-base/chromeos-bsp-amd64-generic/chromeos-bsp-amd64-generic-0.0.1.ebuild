@@ -19,6 +19,12 @@ RDEPEND="
     chromeos-base/chromeos-config
 "
 
+# Software TPM
+RDEPEND="
+    ${RDEPEND}
+    app-crypt/swtpm
+"
+
 # Havege RNG populator
 RDEPEND="
     ${RDEPEND}
