@@ -19,4 +19,10 @@ RDEPEND="
     chromeos-base/chromeos-config
 "
 
+# Havege RNG populator
+RDEPEND="
+    ${RDEPEND}
+    sys-apps/haveged
+"
+
 DEPEND="${RDEPEND}"
