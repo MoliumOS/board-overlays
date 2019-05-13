@@ -1,0 +1,26 @@
+From 97b9f75f8e29c26d488e256ec8a83f3e1fc0c8f9 Mon Sep 17 00:00:00 2001
+From: Adam Farden <adam@farden.cz>
+Date: Sun, 19 May 2019 19:15:13 +0200
+Subject: [PATCH] molium: force disable selinux
+
+we don't have libseccomp in the build environment
+---
+ configure.ac | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/configure.ac b/configure.ac
+index c7b4e98..438f303 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -435,7 +435,7 @@ esac
+ dnl Seccomp profile using -lseccomp (Linux only)
+ case $host_os in
+ linux-*)
+-  with_seccomp_default=yes
++  with_seccomp_default=no
+   ;;
+ *)
+   with_seccomp_default=no
+-- 
+2.20.1
+

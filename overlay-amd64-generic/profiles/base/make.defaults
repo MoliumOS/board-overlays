@@ -20,6 +20,8 @@ USE="${USE} legacy_keyboard legacy_power_button sse kernel-4_19"
 
 USE="${USE} direncryption"
 
+USE="${USE} -tpm tpm2"
+
 # Enable all optional features on generic overlays.
 USE="${USE} buffet"
 
