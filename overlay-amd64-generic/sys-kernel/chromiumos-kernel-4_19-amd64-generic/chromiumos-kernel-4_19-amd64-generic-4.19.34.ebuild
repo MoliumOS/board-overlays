@@ -8,6 +8,9 @@ CROS_WORKON_TREE="b723bccd8a661d665a66ad4c3e956d3aa7cb4c2c"
 CROS_WORKON_PROJECT="chromiumos/third_party/kernel"
 CROS_WORKON_LOCALNAME="kernel/v4.19"
 
+CHROMEOS_KERNEL_ARCH="x86_64"
+CHROMEOS_KERNEL_CONFIG="${FILESDIR}/defconfig"
+
 # This must be inherited *after* EGIT/CROS_WORKON variables defined
 inherit cros-workon cros-kernel2
 
