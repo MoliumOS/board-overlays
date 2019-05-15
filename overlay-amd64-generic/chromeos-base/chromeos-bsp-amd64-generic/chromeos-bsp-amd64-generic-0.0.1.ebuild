@@ -25,4 +25,10 @@ RDEPEND="
     sys-apps/haveged
 "
 
+# Additional kernel firmware
+RDEPEND="
+    ${RDEPEND}
+    sys-kernel/linux-firmware-amd64-generic
+"
+
 DEPEND="${RDEPEND}"
