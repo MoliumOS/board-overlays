@@ -1,8 +1,8 @@
 {
   "_comment": "See http://www.chromium.org/chromium-os/developer-guide/disk-layout-format",
   "parent": "legacy_disk_layout.json",
-  "layouts":{
-    "common":[
+  "layouts": {
+    "common": [
       {
         "num": 2,
         "size": "64 MiB"
@@ -16,26 +16,34 @@
         "size": "128 MiB"
       },
       {
-        "num": 3,
-        "fs_size":"2000 MiB"
-      }
-    ],
-    "usb":[
+        "num": 5,
+        "size": "3072 MiB"
+      },
       {
         "num": 3,
-        "size": "2048 MiB"
+        "size": "3072 MiB",
+        "fs_size": "3000 MiB"
+      }
+    ],
+    "usb": [
+      {
+        "num": 3,
+        "size": "3072 MiB",
+        "fs_size": "3000 MiB"
       }
     ],
     "factory_install": [
       {
         "num": 3,
-        "size": "2048 MiB"
+        "size": "3072 MiB",
+        "fs_size": "3000 MiB"
       }
     ],
-    "recovery":[
+    "recovery": [
       {
         "num": 3,
-        "size": "2048 MiB"
+        "size": "3072 MiB",
+        "fs_size": "3000 MiB"
       }
     ],
     "4gb-rootfs": [
