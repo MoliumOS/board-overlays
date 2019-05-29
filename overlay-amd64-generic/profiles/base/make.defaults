@@ -37,5 +37,11 @@ USE="${USE} include_vmlinuz"
 # Enable unified builds
 USE="${USE} unibuild"
 
+# Enable optional features
+USE="${USE} background_blur"
+USE="${USE} drm_atomic"
+USE="${USE} native_gpu_memory_buffers"
+USE="${USE} postscript"
+
 # Enable a few more video cards as this is a generic board.
 VIDEO_CARDS="intel llvmpipe nouveau radeon"
