@@ -31,6 +31,7 @@ RDEPEND="
     chromeos-base/chromeos-osrelease
     chromeos-base/google-sans-fonts
     chromeos-base/monotype-fonts
+    chromeos-base/pepper-flash
 "
 
 # Havege RNG populator
