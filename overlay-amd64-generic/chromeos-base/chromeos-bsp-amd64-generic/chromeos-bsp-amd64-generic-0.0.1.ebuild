@@ -25,6 +25,12 @@ RDEPEND="
     app-crypt/swtpm
 "
 
+# Additional Chrome OS
+RDEPEND="
+    ${RDEPEND}
+    chromeos-base/chromeos-osrelease
+"
+
 # Havege RNG populator
 RDEPEND="
     ${RDEPEND}
