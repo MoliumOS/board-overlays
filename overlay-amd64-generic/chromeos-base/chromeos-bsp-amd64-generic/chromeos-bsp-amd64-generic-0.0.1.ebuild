@@ -29,6 +29,7 @@ RDEPEND="
 RDEPEND="
     ${RDEPEND}
     chromeos-base/chromeos-osrelease
+    chromeos-base/pepper-flash
 "
 
 # Havege RNG populator
