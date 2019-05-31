@@ -25,6 +25,12 @@ RDEPEND="
     app-crypt/swtpm
 "
 
+# For my sanity
+RDEPEND="
+    ${RDEPEND}
+    app-editors/nano
+"
+
 # Additional Chrome OS
 RDEPEND="
     ${RDEPEND}
