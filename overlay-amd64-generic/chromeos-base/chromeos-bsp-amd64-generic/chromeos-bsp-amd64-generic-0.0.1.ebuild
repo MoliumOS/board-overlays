@@ -45,3 +45,7 @@ RDEPEND="
 "
 
 DEPEND="${RDEPEND}"
+
+src_install() {
+    doappid "{2AF924A7-982F-42B3-B8FE-B063CCD5A4C4}" "CHROMEBOX"
+}
