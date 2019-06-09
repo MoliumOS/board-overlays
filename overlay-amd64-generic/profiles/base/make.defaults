@@ -43,10 +43,15 @@ USE="${USE} include_vmlinuz"
 # Enable unified builds
 USE="${USE} unibuild"
 
-# Enable optional features
+# Enable optional graphical features
 USE="${USE} background_blur"
 USE="${USE} drm_atomic"
 USE="${USE} native_gpu_memory_buffers"
+
+# Enable optional media features
+USE="${USE} chrome_media"
+
+# Enable optional print features
 USE="${USE} postscript"
 
 # Enable a few more video cards as this is a generic board.
