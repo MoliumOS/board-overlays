@@ -24,23 +24,14 @@ USE="${USE} legacy_keyboard legacy_power_button sse kernel-4_14"
 
 USE="${USE} direncryption"
 
-# Enable all optional features on generic overlays.
-USE="${USE} buffet"
-
 # LLVM is required to build the llvmpipe and radeon drivers.
 USE="${USE} llvm"
 
 # Enable camera HALv3
 USE="${USE} arc-camera3"
 
-# Enable vivid
-USE="${USE} vivid"
-
 # Enable usbip
 USE="${USE} usbip"
-
-# Enable Downloadable Content (DLC)
-USE="${USE} dlc"
 
 # Include the kernel in the base image.
 USE="${USE} include_vmlinuz"
