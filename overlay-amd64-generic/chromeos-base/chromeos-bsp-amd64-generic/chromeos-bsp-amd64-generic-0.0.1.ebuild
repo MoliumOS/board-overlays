@@ -31,6 +31,14 @@ RDEPEND="
     app-editors/nano
 "
 
+# Additional ARC with hacks to build. Mainly to avoid building
+# SELinux as we don't have a way to build Android policies.
+# See package.use for more details.
+RDEPEND="
+    ${RDEPEND}
+    chromeos-base/android-container-pi
+"
+
 # Additional Chrome OS
 RDEPEND="
     ${RDEPEND}

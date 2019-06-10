@@ -1,1 +1,3 @@
 media-libs/mesa egl gles2 shared-glapi
+chromeos-base/arc-base android-container-pi
+sys-devel/arc-build android-container-pi

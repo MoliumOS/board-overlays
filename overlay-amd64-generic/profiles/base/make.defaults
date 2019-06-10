@@ -37,6 +37,9 @@ USE="${USE} include_vmlinuz"
 # Enable unified builds
 USE="${USE} unibuild"
 
+# Enable (some) optional android features
+USE="${USE} arc"
+
 # Enable optional graphical features
 USE="${USE} background_blur"
 USE="${USE} drm_atomic"
